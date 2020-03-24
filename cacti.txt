@@ -1,0 +1,60 @@
+snmpwalk -v 2c 10.245.1.209 -c Cloudsdnet ifDescr
+
+
+ 1671  rrdtool info csn_4230000064_traffic_in_864.rrd ?|more
+ 1672  rrdtool info csn_4230000064_traffic_in_864.rrd ?|
+ 1673  history |grep rrdtool
+ 1674  rrdtool info csn_4230000064_traffic_in_864.rrd |more
+ 1675  history |grep rrdtool
+ 1676  history 
+ 1677  rrdtool info csn_4230000064_traffic_in_864.rrd |more
+ 1678  rrdtool tune csn_4230000064_traffic_in_864.rrd -a traffic_in:10000000000
+ 1679  rrdtool tune csn_4230000064_traffic_in_864.rrd -a traffic_out:10000000000
+ 1680  rrdtool info csn_4230000064_traffic_in_864.rrd |more
+
+
+
+rrdtool info bjwj_sdwan_core_m3-3-15_mx240_traffic_in_552.rrd |more 
+
+
+
+ 1419  snmpwalk -v 2 -c Clousdsdnet 114.112.72.178
+ 1420  snmpwalk -v 2 -c Clousdsdnet 114.112.72.178 
+ 1421  snmpwalk -v 2c -c Clousdsdnet 114.112.72.178 
+ 1422  snmpwalk -v 2c -c Clousdsdnet 139.159.30.11
+ 1423  snmpwalk -v 2c -c Clousdsdnet 220.181.123.82
+
+1、使用Yum 来安装依赖包
+#yum -y install sendmail
+#yum -y install mailx
+touch test.txt
+echo how are you > test.txt
+mail -s 'wsy' xiaodong.zhao@cloudsdnet.com < test.txt 
+echo "email to TanHuaQing" | mail -s "please see email" xiaodong.zhao@cloudsdnet.com
+echo "test" | mail -s "mail test" xiaodong.zhao@cloudsdnet.com
+ 1677  rrdtool info csn_4230000064_traffic_in_864.rrd |more
+ 1678  rrdtool tune csn_4230000064_traffic_in_864.rrd -a traffic_in:10000000000
+
+ 1178  mail
+ 1179  echo "test" | mail -s "mail test" xiaodong.zhao@cloudsdnet.com
+ 1180  cd /etc/mail/
+ 1181  vi sendmail.mc
+ 1182  systemctl 
+ 1183  systemctl status sendmail.service
+ 1184  ps aux | grep sendmail
+ 1185  echo "email to TanHuaQing" | mail -s "please see email" xiaodong.zhao@cloudsdnet.com
+ 1186  mail yang.yang@cloudsdnet.com
+
+
+
+
+name 	|host_description| - Traffic - |query_ifIP| - |query_ifName| 
+name 	|host_description| - Traffic - |query_ifName| 	
+name 	|host_description| - Traffic - |query_ifIP|/|query_ifDescr| 	
+name 	|host_description| - Traffic - |query_ifDescr| 	
+rrd_maximum 	|query_ifSpeed| 	
+
+
+title 	|host_description| - Traffic - |query_ifName|
+title 	|host_description| - Traffic - |query_ifIP| (|query_ifDescr|)
+title 	|host_description| - Traffic - |query_ifDescr|/|query_ifIndex| 
